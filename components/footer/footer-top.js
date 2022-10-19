@@ -8,8 +8,8 @@ import {FiPhoneCall} from "react-icons/fi"
 const FooterTop = () => {
     return(
         <>
-            <div className={"border-b border-gray__color mb-10 pb-10 gap-8 grid grid-cols-footer__columns"}>
-                <div className={"flex flex-col items-start gap-5"}>
+            <div className={" border-b border-gray__color mb-10 pb-10 gap-8 grid grid-cols-footer__columns lg:grid-cols-footer__columns md__custom:grid-cols-footer__columns__lg sm__custom:text-center sm__custom:grid-cols-footer__columns__sm"}>
+                <div className={"flex flex-col items-start gap-5 sm:items-center"}>
                     <Image src={Logo} alt={"Logo"} className={" object-contain"}/>
                     <p className={"text-light__gray__color text-sm"}>
                         Lörem ipsum prektigt beren makroligt, till desena. Lasock heterok.
@@ -57,7 +57,7 @@ const FooterTop = () => {
                 </div>
                 <div>
                     <h2 className={"text-white font-bold"}>Contactez-nous</h2>
-                    <div className={"flex flex-col gap-3 mt-4"}>
+                    <div className={"flex flex-col gap-3 mt-4 sm__custom:items-center"}>
                         {[{Icon:BsEnvelope,text:'Eyadaty@email.com'},{Icon:FiPhoneCall,text:'+213540070124'},{Icon:IoLocationOutline,text:'Algiers, Algeria'},{Icon:BsWhatsapp,text:'+213540070124'}].map(el=>{
                             return(
                                 <Fragment key={el.text}>

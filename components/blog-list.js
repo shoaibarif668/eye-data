@@ -32,7 +32,7 @@ export default function BlogList() {
                             </button>
                         </div>
                     </div>
-                    <div className={"flex justify-between"}>
+                    <div className={"flex justify-between flex-wrap gap-0.5"}>
                         {[1,2,3].map((_,index)=>{
                             return(
                                 <Fragment key={index}>

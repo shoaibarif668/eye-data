@@ -7,3 +7,34 @@
     height: 75%;
     width: 100%;
 }
+@media screen and (min-width: 1399px){
+    .container {
+        width: 1320px !important;
+    }
+}
+@media screen and (min-width: 1199px) and (max-width:1398px) {
+    .container {
+        width: 1140px !important;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:990px) {
+    .container {
+        width: 960px !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width:574px) {
+    .container {
+        width: 720px !important;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width:776px) {
+    .container {
+        width: 540px !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100% !important;
+    }
+}

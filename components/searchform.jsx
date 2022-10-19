@@ -95,8 +95,8 @@ export default function SearchForm() {
                     Historique des recherces
                         </p>
                 </div>
-                <div className="flex flex-wrap justify-start space-x-3 space-y-3  ">
-
+                <div className="flex items-center justify-between">
+                    {/*flex flex-wrap justify-start space-x-3 space-y-3*/}
                     <SearchChips chiptitle="Generaliste Oran"/>
                     <SearchChips chiptitle="Cardiologie Medea"/>
                     <SearchChips chiptitle="Medicine Interne Alger"/>
