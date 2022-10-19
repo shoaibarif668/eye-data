@@ -11,7 +11,7 @@ export default function ClinicCard(props) {
     <div className="xl:w-1/4 md:w-1/2 p-4">
           <div className="flex justify-center">
             <div className="rounded-lg shadow-lg bg-white max-w-sm">
-              <a className='flex justify-center ' href="#!">
+              <a className='flex justify-center ' href="components/cliniccard#!">
                 <Image src={props.ClinicCardimg} alt="clinic image" />
 
                 {/* <img className="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/> */}
