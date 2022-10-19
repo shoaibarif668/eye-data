@@ -16,7 +16,7 @@ export default function LabSection() {
     <div>
       <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
-      <div className="flex flex-wrap justify-between px-12 w-full mb-20">
+      <div className="flex flex-wrap justify-between  w-full mb-20">
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
           <p className='text-sitegreen font-medium'>Explorez tous les</p>
           <h1 className="sm:text-3xl text-2xl lg:text-6xl lg:font-extrabold font-medium title-font mb-2 text-gray-900">Laboratoires</h1>

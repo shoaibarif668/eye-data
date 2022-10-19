@@ -4,15 +4,15 @@ import aboutimg from '/assets/aboutusimage.png'
 
 export default function AboutUs() {
   return (
-    <section className="text-gray-600 px-10   body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <section className="text-gray-600 bg-[url('../assets/Lines.png')] bg-cover bg-no-repeat  body-font">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center ">
 
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <Image src={aboutimg} alt="Image of doctor" width={420} height={428.03}/>
                 {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
             </div>
 
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <p className="text-sm  text-sitegreen font-bold mb-5 w-full">Neutra shabby chic ramps, viral fixie.</p>
                 <h1 className="text-7xl sm:text-4xl  mb-4 font-extrabold text-gray-900">Qui Sommes Nous?</h1>
                 <p className="mb-8 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato,

@@ -3,9 +3,9 @@ import SearchChips from './searchchips'
 
 export default function SearchForm() {
   return (
-    <div className=' flex justify-center p-2 '>
+    <div className=' flex justify-center p-2'>
         {/* max-w-md */}
-        <div className="  p-6 rounded-lg shadow-lg w-3/4   ">
+        <div className="bg-white p-6 rounded-[20px] shadow-lg w-3/4  mt-[-10%]">
             <form>
                 <div className="grid grid-cols-4 gap-4">
                     <div className="form-group mb-6">

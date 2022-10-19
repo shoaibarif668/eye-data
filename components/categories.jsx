@@ -13,7 +13,7 @@ import Image from 'next/image'
 import CategoryCard from './categorycard'
 export default function Categories() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-[url('../assets/Lines-alt.png')] bg-cover bg-no-repeat  ">
         <div className="container px-5 py-16 mx-auto ">
         <div className="flex flex-wrap justify-between px-12 w-full mb-20">
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
