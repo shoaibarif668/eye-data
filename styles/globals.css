@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .custom-img{
-    background-image: url('../public/downloadbanner.png');
+    background-image: url('/assets/downloadbanner.png');
     height: 75%;
     width: 100%;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import heroimg from '../../public/himg.png'
+import heroimg from '/assets/himg.png'
 
 export default function HeroPage() {
   return (

@@ -4,7 +4,7 @@ import ViewIcon from '../icons/viewicon'
 import StarIcon from '../icons/staricon'
 import LocationIcon from '../icons/locationicon'
 import HeartIcon from '../icons/hearticon'
-import checkmark from '../../public/checkmark.png'
+import checkmark from '/assets/checkmark.png'
 
 export default function ClinicCard(props) {
   return (

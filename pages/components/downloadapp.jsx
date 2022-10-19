@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import apphand from '../../public/apphand.png'
+import apphand from '/assets/apphand.png'
 
 export default function DownloadApp() {
   return (

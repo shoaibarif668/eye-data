@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import aboutimg from '../../public/aboutusimage.png'
+import aboutimg from '/assets/aboutusimage.png'
 
 export default function AboutUs() {
   return (
@@ -19,7 +19,7 @@ export default function AboutUs() {
                 Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato,
                 Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
                 <div className="flex w-full md:justify-start  justify-center items-end">
-                    
+
                     <button className="inline-flex text-white bg-siteblue border-0 py-2 px-10 focus:outline-none hover:bg-sitegreen rounded-xl text-lg">Voir Plus  </button>
                 </div>
 
@@ -30,7 +30,7 @@ export default function AboutUs() {
                                 <span className=" font-extrabold text-3xl text-black">3600 <span className='text-sitegreen'> + </span></span>
                                 <span className="font-semibold text-gray-600 mb-1">Patients Heurex</span>
                             </span>
-                            
+
                         </button>
                     </div>
 
@@ -40,7 +40,7 @@ export default function AboutUs() {
                                 <span className=" font-extrabold text-3xl text-black">1200 <span className='text-sitegreen'> + </span></span>
                                 <span className="font-semibold text-gray-600 mb-1">Patients Heurex</span>
                             </span>
-                            
+
                         </button>
                     </div>
 
@@ -50,7 +50,7 @@ export default function AboutUs() {
                                 <span className=" font-extrabold text-3xl text-black">20 <span className='text-sitegreen'> + </span></span>
                                 <span className="font-semibold text-gray-600 mb-1">Patients Heurex</span>
                             </span>
-                            
+
                         </button>
                     </div>
 
@@ -60,14 +60,14 @@ export default function AboutUs() {
                                 <span className=" font-extrabold text-3xl text-black">200 <span className='text-sitegreen'> + </span></span>
                                 <span className="font-semibold text-gray-600 mb-1">Patients Heurex</span>
                             </span>
-                            
+
                         </button>
                     </div>
                 </div>
-            
-            
+
+
             </div>
-            
+
         </div>
         </section>
     )
