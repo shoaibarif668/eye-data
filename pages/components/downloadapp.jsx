@@ -5,11 +5,11 @@ import apphand from '../../public/apphand.png'
 export default function DownloadApp() {
   return (
     <div className='flex flex-row justify-between p-10 h-screen mb-12  bg-center bg-cover custom-img'>
-      
+
       <div className='flex flex-col justify-center px-10   space-y-5 w-3/5'>
 
         <h1 class="text-5xl font-bold text-gray-900 dark:text-white">
-          Téléchargez l'application Eyadaty.
+          Téléchargez l`application Eyadaty.
         </h1>
         <h3 class="text-1xl font-thin text-gray-900 dark:text-white">
           Et prenez bien soin de votre santé.
@@ -44,7 +44,7 @@ export default function DownloadApp() {
       </div>
 
     </div>
-    
+
     )
 
 }
